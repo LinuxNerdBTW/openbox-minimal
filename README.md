@@ -2,23 +2,23 @@
 
 # APPS [ Make sure u have installed this ]
 
-WM : Openbox 
-Terminal : kitty 
-Application launcher : Rofi 
-Bar : Tint2 
-Compositor : Picom 
-Notification : dunst 
-Screenshot : flameshot 
-Network Manager : nm-applet
-Power Manager : network-manager-applet 
-Dock : Plank 
-Volume Control : pavucontrol 
-Volume Tray : volumeicon 
-Policy kit Authentication : polkit-gnome 
-Wallpaper Utility : feh 
-File Manager : thunar 
-Browser : Brave -> As my choice you can use your own choice 
-Desktop root menu : obmenu-generator 
+* WM : Openbox 
+* Terminal : kitty 
+* Application launcher : Rofi 
+* Bar : Tint2 
+* Compositor : Picom 
+* Notification : dunst 
+* Screenshot : flameshot 
+* Network Manager : nm-applet
+* Power Manager : network-manager-applet 
+* Dock : Plank 
+* Volume Control : pavucontrol 
+* Volume Tray : volumeicon 
+* Policy kit Authentication : polkit-gnome 
+* Wallpaper Utility : feh 
+* File Manager : thunar 
+* Browser : Brave -> As my choice you can use your own choice 
+* Desktop root menu : obmenu-generator 
 
 # [ Touchpad gestures ]
 
