@@ -47,7 +47,6 @@ Openbox Theme
 * fc-cache -v -> relaod font cache 
 
 # [ Installation ]
-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
 
 * git clone https://github.com/TheLinuxGuy001/openbox-minimal.git && cd openbox-* && ls -l 
 * cp -rv openbox ~/.config/ -> if openbox directory already exists then remove it 
