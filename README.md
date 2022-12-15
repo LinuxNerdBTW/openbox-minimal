@@ -2,23 +2,23 @@
 
 # APPS [ Make sure u have installed this ]
 
-WM : Openbox 
-Terminal : kitty 
-Application launcher : Rofi 
-Bar : Tint2 
-Compositor : Picom 
-Notification : dunst 
-Screenshot : flameshot 
-Network Manager : nm-applet
-Power Manager : network-manager-applet 
-Dock : Plank 
-Volume Control : pavucontrol 
-Volume Tray : volumeicon 
-Policy kit Authentication : polkit-gnome 
-Wallpaper Utility : feh 
-File Manager : thunar 
-Browser : Brave -> As my choice you can use your own choice 
-Desktop root menu : obmenu-generator 
+* WM : Openbox 
+* Terminal : kitty 
+* Application launcher : Rofi 
+* Bar : Tint2 
+* Compositor : Picom 
+* Notification : dunst 
+* Screenshot : flameshot 
+* Network Manager : nm-applet
+* Power Manager : network-manager-applet 
+* Dock : Plank 
+* Volume Control : pavucontrol 
+* Volume Tray : volumeicon 
+* Policy kit Authentication : polkit-gnome 
+* Wallpaper Utility : feh 
+* File Manager : thunar 
+* Browser : Brave -> As my choice you can use your own choice 
+* Desktop root menu : obmenu-generator 
 
 # [ Touchpad gestures ]
 
@@ -52,6 +52,23 @@ Openbox Theme
 * cp -rv openbox ~/.config/ -> if openbox directory already exists then remove it 
 * openbox --reconfigure && openbox --restart -> restarts and reconfigure openbox Wms 
 * obmenu-generator -p -i -> dynamic menu with icons 
+
+# [ Shadow Color change ] 
+Just search for following line on ~/.config/openbox/configurations/picom/picom.conf & uncomment them | you can also change colors accordingly using RGB values 
+
+#shadow-red = 180 
+#shadow-green = 190
+#shadow-blue = 254
+
+
+# [ ScreenShoots ] 
+### Simple and Elegent look 
+
+![Screenshot](openbox.png)
+
+
+
+
 
 
 
