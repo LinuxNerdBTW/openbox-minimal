@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="https://openbox.org/"
+ xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://openbox.org/">
+  <menu id="root-menu" label="Applications">
+<!--     <item label="File Manager" icon="/home/linuxguy/.config/obmenu-generator/icons/d5a52bc0bb8516b3851829aaa380f68e.png"><action name="Execute"><command><![CDATA[pcmanfm .]]></command></action></item>
+    <item label="Terminal" icon="/home/linuxguy/.config/obmenu-generator/icons/b35bfd597ae8e0185d42e50eecef1977.png"><action name="Execute"><command><![CDATA[kitty]]></command></action></item>
+    <item label="Web Browser" icon="/home/linuxguy/.config/obmenu-generator/icons/22ebf06eea54a36d164987720324a78f.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="Run command" icon="/home/linuxguy/.config/obmenu-generator/icons/50ac2018f88d4cb56625e6e9cb2c1f9a.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item> -->
+  <!-- <separator label="Applications"/> -->
+  <menu id="0.10584026652305" icon="/home/linuxguy/.config/obmenu-generator/icons/f78e78313d96fb7f25b7bd831b6ab676.png" label="Accessories">
+    <item label="About Xfce" icon="/home/linuxguy/.config/obmenu-generator/icons/aac4f88e61f65d1acb4c9cef90ae1429.png"><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
+    <item label="compton" icon="/home/linuxguy/.config/obmenu-generator/icons/79706a0a3833a8b5a372c19635a63d02.png"><action name="Execute"><command><![CDATA[compton]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/linuxguy/.config/obmenu-generator/icons/d5a52bc0bb8516b3851829aaa380f68e.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/linuxguy/.config/obmenu-generator/icons/fa04acb0a7467bb6ed4bfe1f3375a266.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="Neovim" icon="/home/linuxguy/.config/obmenu-generator/icons/3b632d73aaab7776e5ce8d730b5f22d4.png"><action name="Execute"><command><![CDATA[xterm -e 'nvim']]></command></action></item>
+    <item label="picom"><action name="Execute"><command><![CDATA[picom]]></command></action></item>
+    <item label="Plank" icon="/home/linuxguy/.config/obmenu-generator/icons/3af42f8547c3181993ad9f15e98bc9e0.png"><action name="Execute"><command><![CDATA[plank]]></command></action></item>
+    <item label="Redshift" icon="/home/linuxguy/.config/obmenu-generator/icons/1db26d1e646c33c1ef4eb382a8bd645b.png"><action name="Execute"><command><![CDATA[redshift-gtk]]></command></action></item>
+    <item label="Vim" icon="/home/linuxguy/.config/obmenu-generator/icons/b2f633d394ca84fd09a1b2269db7e22b.png"><action name="Execute"><command><![CDATA[xterm -e 'vim']]></command></action></item>
+    <item label="WezTerm" icon="/home/linuxguy/.config/obmenu-generator/icons/81be392cd32dcb1b79f2256010e592e6.png"><action name="Execute"><command><![CDATA[wezterm start --cwd . --]]></command></action></item>
+  </menu>
+  <menu id="0.928366429262923" icon="/home/linuxguy/.config/obmenu-generator/icons/8fa7621a18a4b116246c8ca8a961906c.png" label="Development">
+    <item label="CMake" icon="/home/linuxguy/.config/obmenu-generator/icons/86bbc91d71eb9e4f87cc498672cc8dc0.png"><action name="Execute"><command><![CDATA[cmake-gui]]></command></action></item>
+    <item label="guiscrcpy" icon="/home/linuxguy/.config/obmenu-generator/icons/43de07f2ad1dfca7473abb305c7d733f.png"><action name="Execute"><command><![CDATA[env QT_API=pyside2 guiscrcpy]]></command></action></item>
+    <item label="Sublime Text" icon="/home/linuxguy/.config/obmenu-generator/icons/9969b862c1448491781366754696b168.png"><action name="Execute"><command><![CDATA[/opt/sublime_text/sublime_text]]></command></action></item>
+  </menu>
+  <menu id="0.632969622538564" icon="/home/linuxguy/.config/obmenu-generator/icons/4fea3a5e8238f989310459edb8d26abb.png" label="Graphics">
+    <item label="Flameshot" icon="/home/linuxguy/.config/obmenu-generator/icons/13ba99fceb4ccb345a9528df8e117336.png"><action name="Execute"><command><![CDATA[/usr/bin/flameshot]]></command></action></item>
+    <item label="Gcolor2" icon="/home/linuxguy/.config/obmenu-generator/icons/1846ad88e3256098c75664c0e1771d69.png"><action name="Execute"><command><![CDATA[gcolor2]]></command></action></item>
+    <item label="Peek" icon="/home/linuxguy/.config/obmenu-generator/icons/8609bd1e96e1dd71cac7a7d6e69a5cbf.png"><action name="Execute"><command><![CDATA[peek]]></command></action></item>
+    <item label="XDvi"><action name="Execute"><command><![CDATA[xdvi]]></command></action></item>
+  </menu>
+  <menu id="0.689647001537146" icon="/home/linuxguy/.config/obmenu-generator/icons/aa9a7077be5578e0adca80a195eb8590.png" label="Multimedia">
+    <item label="Audacity" icon="/home/linuxguy/.config/obmenu-generator/icons/762380a532ea94575bb4bac6f45a6110.png"><action name="Execute"><command><![CDATA[env UBUNTU_MENUPROXY=0 audacity]]></command></action></item>
+    <item label="GTK Pipe Viewer" icon="/home/linuxguy/.config/obmenu-generator/icons/434692e290ce55614bc8a02d9c18e263.png"><action name="Execute"><command><![CDATA[gtk-pipe-viewer]]></command></action></item>
+    <item label="Kdenlive" icon="/home/linuxguy/.config/obmenu-generator/icons/e15a74640af946785ca3590fdccc8c05.png"><action name="Execute"><command><![CDATA[kdenlive]]></command></action></item>
+    <item label="mpv Media Player" icon="/home/linuxguy/.config/obmenu-generator/icons/74bfdb59d7905df6de10c907736dfcd2.png"><action name="Execute"><command><![CDATA[mpv --player-operation-mode=pseudo-gui --]]></command></action></item>
+    <item label="OBS Studio" icon="/home/linuxguy/.config/obmenu-generator/icons/e7f037556e6791d41381ab9008e74526.png"><action name="Execute"><command><![CDATA[obs]]></command></action></item>
+    <item label="Peek" icon="/home/linuxguy/.config/obmenu-generator/icons/8609bd1e96e1dd71cac7a7d6e69a5cbf.png"><action name="Execute"><command><![CDATA[peek]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/linuxguy/.config/obmenu-generator/icons/aa9a7077be5578e0adca80a195eb8590.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt V4L2 test Utility" icon="/home/linuxguy/.config/obmenu-generator/icons/74bfdb59d7905df6de10c907736dfcd2.png"><action name="Execute"><command><![CDATA[qv4l2]]></command></action></item>
+    <item label="Qt V4L2 video capture utility" icon="/home/linuxguy/.config/obmenu-generator/icons/74bfdb59d7905df6de10c907736dfcd2.png"><action name="Execute"><command><![CDATA[qvidcap]]></command></action></item>
+    <item label="SimpleScreenRecorder" icon="/home/linuxguy/.config/obmenu-generator/icons/97f17146872022f7e25dd5f64c39861d.png"><action name="Execute"><command><![CDATA[simplescreenrecorder --logfile]]></command></action></item>
+  </menu>
+  <menu id="0.406295491510793" icon="/home/linuxguy/.config/obmenu-generator/icons/22ebf06eea54a36d164987720324a78f.png" label="Network">
+    <item label="AnyDesk" icon="/home/linuxguy/.config/obmenu-generator/icons/190e26232543cd253c35fa381b0ab67a.png"><action name="Execute"><command><![CDATA[/usr/bin/anydesk]]></command></action></item>
+    <item label="Avahi SSH Server Browser" icon="/home/linuxguy/.config/obmenu-generator/icons/c22ae6032932acd157c80706984b080e.png"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
+    <item label="Avahi VNC Server Browser" icon="/home/linuxguy/.config/obmenu-generator/icons/c22ae6032932acd157c80706984b080e.png"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
+    <item label="Brave Web Browser (nightly)" icon="/home/linuxguy/.config/obmenu-generator/icons/f0934a02a55e131a6f68b699c320a553.png"><action name="Execute"><command><![CDATA[/usr/bin/brave-nightly]]></command></action></item>
+    <item label="Discord" icon="/home/linuxguy/.config/obmenu-generator/icons/b1bd802ca5bd3b2cb5e0df36388119e0.png"><action name="Execute"><command><![CDATA[/usr/bin/discord]]></command></action></item>
+    <item label="Firefox" icon="/home/linuxguy/.config/obmenu-generator/icons/a477dae6ed6f37a85423e9f4a405444c.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox/firefox]]></command></action></item>
+    <item label="Telegram Desktop" icon="/home/linuxguy/.config/obmenu-generator/icons/2503ce89235b2e2ec07ebeffca894b46.png"><action name="Execute"><command><![CDATA[telegram-desktop --]]></command></action></item>
+  </menu>
+  <menu id="0.35493535942804" icon="/home/linuxguy/.config/obmenu-generator/icons/29ebcfe3cc6e2005584b0d8612679149.png" label="Other">
+    <item label="Rofi Theme Selector" icon="/home/linuxguy/.config/obmenu-generator/icons/80a665ac483e68fbd76b1667a38baf8d.png"><action name="Execute"><command><![CDATA[rofi-theme-selector]]></command></action></item>
+    <item label="Rofi" icon="/home/linuxguy/.config/obmenu-generator/icons/80a665ac483e68fbd76b1667a38baf8d.png"><action name="Execute"><command><![CDATA[rofi -show]]></command></action></item>
+  </menu>
+  <menu id="0.723899827009827" icon="/home/linuxguy/.config/obmenu-generator/icons/d38a4687201af30ed58584589a338f83.png" label="Settings">
+    <item label="Customize Look and Feel" icon="/home/linuxguy/.config/obmenu-generator/icons/aed73718e74541be5992abacfc216f73.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Desktop Preferences" icon="/home/linuxguy/.config/obmenu-generator/icons/ae82edbf6da51d641e5e6a6ee7baea51.png"><action name="Execute"><command><![CDATA[pcmanfm --desktop-pref]]></command></action></item>
+    <item label="Firewall" icon="/home/linuxguy/.config/obmenu-generator/icons/7c9413a65893923c7df6705e66c6c38f.png"><action name="Execute"><command><![CDATA[/usr/bin/firewall-config]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/linuxguy/.config/obmenu-generator/icons/fa04acb0a7467bb6ed4bfe1f3375a266.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="Notifications" icon="/home/linuxguy/.config/obmenu-generator/icons/6fce6e057242e58a8da6167148d6f309.png"><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/linuxguy/.config/obmenu-generator/icons/838b853894e4a8586c17a1c29e171d60.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Power Manager" icon="/home/linuxguy/.config/obmenu-generator/icons/d047649aea0634025df84488defa89e3.png"><action name="Execute"><command><![CDATA[xfce4-power-manager-settings]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/linuxguy/.config/obmenu-generator/icons/f311e593e06cdfd50a10b96a72fc7021.png"><action name="Execute"><command><![CDATA[libfm-pref-apps]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/linuxguy/.config/obmenu-generator/icons/aa9a7077be5578e0adca80a195eb8590.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Screensaver" icon="/home/linuxguy/.config/obmenu-generator/icons/550f2c70d1f1f5080faf59ef7d71bf10.png"><action name="Execute"><command><![CDATA[xfce4-screensaver-preferences]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/linuxguy/.config/obmenu-generator/icons/fcb62831b9a2768d4d97c18bf9f03f2f.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+    <item label="tuned-gui" icon="/home/linuxguy/.config/obmenu-generator/icons/9e364123b0fdc5c947c16dd225e09ed1.png"><action name="Execute"><command><![CDATA[/usr/sbin/tuned-gui]]></command></action></item>
+  </menu>
+  <menu id="0.585712619166848" icon="/home/linuxguy/.config/obmenu-generator/icons/50ac2018f88d4cb56625e6e9cb2c1f9a.png" label="System">
+    <item label="Avahi Zeroconf Browser" icon="/home/linuxguy/.config/obmenu-generator/icons/c22ae6032932acd157c80706984b080e.png"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+    <item label="btop++" icon="/home/linuxguy/.config/obmenu-generator/icons/18f26e8b8266886ec893bf3d0474c680.png"><action name="Execute"><command><![CDATA[xterm -e 'btop']]></command></action></item>
+    <item label="conky" icon="/home/linuxguy/.config/obmenu-generator/icons/318979f26d22619bc4641612b7836f9c.png"><action name="Execute"><command><![CDATA[conky --daemonize --pause=1]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/linuxguy/.config/obmenu-generator/icons/d5a52bc0bb8516b3851829aaa380f68e.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="Firewall" icon="/home/linuxguy/.config/obmenu-generator/icons/7c9413a65893923c7df6705e66c6c38f.png"><action name="Execute"><command><![CDATA[/usr/bin/firewall-config]]></command></action></item>
+    <item label="gmrun" icon="/home/linuxguy/.config/obmenu-generator/icons/ccd26fa01f40a8273d208f0ea886f912.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+    <item label="Hardware Locality lstopo" icon="/home/linuxguy/.config/obmenu-generator/icons/a910af5b45550105eb4ba29788ee35f1.png"><action name="Execute"><command><![CDATA[lstopo]]></command></action></item>
+    <item label="Htop" icon="/home/linuxguy/.config/obmenu-generator/icons/8c96a53e0a04a9a8328219633134a54a.png"><action name="Execute"><command><![CDATA[xterm -e 'htop']]></command></action></item>
+    <item label="kitty" icon="/home/linuxguy/.config/obmenu-generator/icons/bbc579c2e2156fbfe2acfefe3858366b.png"><action name="Execute"><command><![CDATA[kitty]]></command></action></item>
+    <item label="Oracle VM VirtualBox" icon="/home/linuxguy/.config/obmenu-generator/icons/a69b742939fce2bb176ff7e4bf4c77c7.png"><action name="Execute"><command><![CDATA[VirtualBox]]></command></action></item>
+    <item label="ranger" icon="/home/linuxguy/.config/obmenu-generator/icons/b35bfd597ae8e0185d42e50eecef1977.png"><action name="Execute"><command><![CDATA[xterm -e 'ranger']]></command></action></item>
+    <item label="Tint2" icon="/home/linuxguy/.config/obmenu-generator/icons/fcb62831b9a2768d4d97c18bf9f03f2f.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="Virtual Machine Manager" icon="/home/linuxguy/.config/obmenu-generator/icons/661e35a3b7bfd8923439c47d98c090a4.png"><action name="Execute"><command><![CDATA[virt-manager]]></command></action></item>
+    <item label="WezTerm" icon="/home/linuxguy/.config/obmenu-generator/icons/81be392cd32dcb1b79f2256010e592e6.png"><action name="Execute"><command><![CDATA[wezterm start --cwd . --]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.266496747024949" icon="/home/linuxguy/.config/obmenu-generator/icons/1a687a591018d1f1ef623deb26deb7f2.png" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/linuxguy/.config/obmenu-generator/icons/5a6a1005554201e67c120902e7a6f8df.png"><action name="Execute"><command><![CDATA[kitty -e nvim  ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/linuxguy/.config/obmenu-generator/icons/5a6a1005554201e67c120902e7a6f8df.png"><action name="Execute"><command><![CDATA[kitty -e nvim  ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.427135371429131" icon="/home/linuxguy/.config/obmenu-generator/icons/e1330504d93f290ea57bda9e9081a6ff.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/linuxguy/.config/obmenu-generator/icons/5a6a1005554201e67c120902e7a6f8df.png"><action name="Execute"><command><![CDATA[kitty -e nvim  ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/linuxguy/.config/obmenu-generator/icons/5a6a1005554201e67c120902e7a6f8df.png"><action name="Execute"><command><![CDATA[kitty -e nvim  ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/linuxguy/.config/obmenu-generator/icons/e1330504d93f290ea57bda9e9081a6ff.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/linuxguy/.config/obmenu-generator/icons/e1330504d93f290ea57bda9e9081a6ff.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/linuxguy/.config/obmenu-generator/icons/e1330504d93f290ea57bda9e9081a6ff.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/linuxguy/.config/obmenu-generator/icons/e1330504d93f290ea57bda9e9081a6ff.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/linuxguy/.config/obmenu-generator/icons/89fe3fbab0da91bd0952d12058d1fb7b.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.137640800110415" icon="/home/linuxguy/.config/obmenu-generator/icons/838b853894e4a8586c17a1c29e171d60.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/linuxguy/.config/obmenu-generator/icons/5a6a1005554201e67c120902e7a6f8df.png"><action name="Execute"><command><![CDATA[kitty -e nvim  ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/linuxguy/.config/obmenu-generator/icons/5a6a1005554201e67c120902e7a6f8df.png"><action name="Execute"><command><![CDATA[kitty -e nvim  ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/linuxguy/.config/obmenu-generator/icons/5a6a1005554201e67c120902e7a6f8df.png"><action name="Execute"><command><![CDATA[kitty -e nvim  ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/linuxguy/.config/obmenu-generator/icons/838b853894e4a8586c17a1c29e171d60.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <!-- <separator label="Power Menu"/> -->
+  <item label="Lock" icon="/home/linuxguy/.config/obmenu-generator/icons/550f2c70d1f1f5080faf59ef7d71bf10.png"><action name="Execute"><command><![CDATA[i3lock-fancy]]></command></action></item>
+    <item label="Exit" icon="/home/linuxguy/.config/obmenu-generator/icons/dc972ed9c2985358c9976746da295486.png"><action name="Exit"/></item>
+
+  </menu>
+</openbox_menu>

@@ -1,0 +1,14 @@
+#!/bin/bash 
+
+~/.fehbg &
+picom --config ~/.config/openbox/configurations/picom/picom.conf --experimental-backends &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+tint2 -c ~/.config/openbox/configurations/tint2/tint2rc &
+dunst -config ~/.config/openbox/configurations/dunst/dunstrc &
+# redshift-gtk &
+flameshot &
+nm-applet &
+xfce4-power-manager &
+libinput-gestures-setup start &
+plank & 
+volumeicon &

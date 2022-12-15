@@ -1,0 +1,11 @@
+#!/bin/bash
+
+VIDEO_SIZE=1366x768
+FRAME_RATE=40
+AUDIO_DEVICE=pulse
+PRESET=ultrafast
+FILE_TO_SAVE=$1
+
+ffmpeg -f x11grab -video_size $VIDEO_SIZE -framerate $FRAME_RATE -i $DISPLAY -f $AUDIO_DEVICE -i default -c:v libx264 -preset $PRESET -c:a aac $FILE_TO_SAVE
+
+echo File Saved To $FILE_TO_SAVE
