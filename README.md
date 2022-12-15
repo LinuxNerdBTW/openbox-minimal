@@ -54,6 +54,23 @@ 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
 * openbox --reconfigure && openbox --restart -> restarts and reconfigure openbox Wms 
 * obmenu-generator -p -i -> dynamic menu with icons 
 
+# [ Shadow Color change ] 
+Just search for following line on ~/.config/openbox/configurations/picom/picom.conf & uncomment them | you can also change colors accordingly using RGB values 
+
+#shadow-red = 180 
+#shadow-green = 190
+#shadow-blue = 254
+
+
+# [ ScreenShoots ] 
+### Simple and Elegent look 
+
+![Screenshot](openbox.png)
+
+
+
+
+
 
 
 [Note : All the dependencies and Fonts needs to be properly installed otherwise may not work properly ]
