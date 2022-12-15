@@ -56,19 +56,36 @@ Openbox Theme
 # [ Shadow Color change ] 
 Just search for following line on ~/.config/openbox/configurations/picom/picom.conf & uncomment them | you can also change colors accordingly using RGB values 
 
-#shadow-red = 180 
-#shadow-green = 190
-#shadow-blue = 254
+* shadow-red = 180 
+* shadow-green = 190
+* shadow-blue = 254
 
-
+---
 # [ ScreenShoots ] 
+
 ### Simple and Elegent look 
 
-![Screenshot](openbox.png)
+![Screenshot](SS/openbox.png)
+
+### With Pink shadow 
+
+![Screenshot](SS/openbox_3.png)
+![Screenshot](SS/openbox_5.png)
+
+### App Launcher 
+
+![Screenshot](SS/launcher.png)
+
+### PowerMenu 
+
+![Screenshot](SS/powermenu.png)
+
+### notification 
+
+![Screenshot](SS/notification.png)
 
 
-
-
+---
 
 
 
