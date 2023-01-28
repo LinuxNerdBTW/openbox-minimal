@@ -1,7 +1,7 @@
-# OpenBox Minimal Configurations 
+<p align="center"> ~ OpenBox Minimal Configurations ~ </p>
 
-# APPS [ Make sure u have installed this ]
-
+<p align="center"> ~[ Make sure u have installed this ]~ </p>
+```
 * WM : Openbox 
 * Terminal : kitty 
 * Application launcher : Rofi 
@@ -19,68 +19,66 @@
 * File Manager : thunar 
 * Browser : Brave -> As my choice you can use your own choice 
 * Desktop root menu : obmenu-generator 
-
-# [ Touchpad gestures ]
-
+```
+<p align="center"> ~[ Touchpad gestures ]~ </p>
+```
 * libinput-gestures 
 * gestures 
-
 [ Grab them from aur with paru or yay | or build it from source ]
+```
 
+<p align="center"> ~[ Themes Configurations ]~ </p>
 
-# [ Themes Configurations ]
-
-Openbox Theme 
-
+```
 * obconf -> first install this to set openbox themes and configuring openbox from gui app 
 * https://github.com/dracula/openbox -> use dracula without border 
 * paru -S tela-circle-icon-theme-git -> Icon theme 
 * https://github.com/catppuccin/gtk -> Use this gtk theme as i have rice everything based on catppuccin mocha colorplate
-
-# [ Fonts ]
-
+```
+<p align="center"> ~[ Fonts ]~ </p>
+```
 * JetBrains Mono Nerd Fonts -> [ Must Install ]
 * Hack Nerd Fonts -> Application launcher font [ must install ]
 * Cantrell 
 * Roboto 
 * https://www.nerdfonts.com/font-downloads -> download nerdfonts from here 
 * fc-cache -v -> relaod font cache 
-
-# [ Installation ]
-
+```
+<p align="center"> ~[ Installation ]~ </p>
+```
 * git clone https://github.com/TheLinuxGuy001/openbox-minimal.git && cd openbox-* && ls -l 
 * cp -rv openbox ~/.config/ -> if openbox directory already exists then remove it 
 * openbox --reconfigure && openbox --restart -> restarts and reconfigure openbox Wms 
 * obmenu-generator -p -i -> dynamic menu with icons 
-
-# [ Shadow Color change ] 
+```
+<p align="center"> ~[ Shadow Color Change ]~ </p> 
 Just search for following line on ~/.config/openbox/configurations/picom/picom.conf & uncomment them | you can also change colors accordingly using RGB values 
-
+```
 * shadow-red = 180 
 * shadow-green = 190
 * shadow-blue = 254
-
+```
 ---
-# [ ScreenShoots ] 
+<p align="center"> ~[ ScreenShots ]~ </p>
 
-### Simple and Elegent look 
+<p align="center"> ~[ Simple & Elegant Look ]~ </p>
 
 ![Screenshot](SS/openbox.png)
 
-### With Pink shadow 
+<p align="center"> ~[ Pink Shadow ]~ </p>
 
 ![Screenshot](SS/openbox_3.png)
 ![Screenshot](SS/openbox_5.png)
 
-### App Launcher 
+<p align="center"> ~[ App Launcher ]~ </p>
 
 ![Screenshot](SS/launcher.png)
 
-### PowerMenu 
+<p align="center"> ~[ PowerMenu ]~ </p>
 
 ![Screenshot](SS/powermenu.png)
 
-### notification 
+<p align="center"> ~[ Notification ]~ </p>
 
 ![Screenshot](SS/notification.png)
 
